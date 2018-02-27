@@ -2,7 +2,7 @@
 layout: post
 title: GitHub Tips （很实用，值得收藏）
 category: 技术
-tags: [Git]
+tags: [git]
 ---
 
 > 针对GitHub 和 Git，各列举了15个小技巧！精简实用

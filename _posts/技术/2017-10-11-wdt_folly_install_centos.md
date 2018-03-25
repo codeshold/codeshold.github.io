@@ -3,7 +3,7 @@ title: WDT (Folly) 安装指南 -- CentOS 7
 layout: post
 author: WenfengShi
 category: 技术
-tags: [network tool]
+tags: [network, tool]
 ---
 博客链接: [http://codeshold.me/2017/10/wdt_folly_install_centos.html](http://codeshold.me/2017/10/wdt_folly_install_centos.html)
 

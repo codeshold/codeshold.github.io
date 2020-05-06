@@ -128,7 +128,12 @@ bing_verify:
 include: []
 exclude: ["README.md"]
 
+#repository: https://rubygems.org
+plugins:
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-github-metadata
+- jekyll-mentions
+- jekyll-redirect-from
+- jemoji
 
-plugins: 
-    - jekyll-paginate
-    - jekyll-sitemap

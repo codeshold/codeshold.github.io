@@ -5,7 +5,7 @@ author: WenfengShi
 category: 私库
 tags: [读书笔记]
 ---
-博客链接: [http://codeshold.me/2017/02/interview_questions.html](http://codeshold.me/2017/02/interview_questions.html)
+博客链接: [http://codeshold.com/2017/02/interview_questions.html](http://codeshold.com/2017/02/interview_questions.html)
 
 > McDowell的《金领简历：敲开苹果、微软、谷歌的大门》的个人总结。
 

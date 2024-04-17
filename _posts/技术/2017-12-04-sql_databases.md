@@ -5,7 +5,7 @@ author: WenfengShi
 category: 技术
 tags: [database, 读书笔记]
 ---
-博客链接: [http://codeshold.me/2017/12/sql_databases.html](http://codeshold.me/2017/12/sql_databases.html)
+博客链接: [http://codeshold.com/2017/12/sql_databases.html](http://codeshold.com/2017/12/sql_databases.html)
 
 > 偶然间从朋友那看到了这本书（《SQL基础教程》MICK著），感觉还不错，于是花了4个小时认真的过了一遍，在这里简单的总结一下要点（个人观点）
 

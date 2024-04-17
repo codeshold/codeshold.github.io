@@ -5,7 +5,7 @@ author: onephone
 category: 技术
 tags: [database]
 ---
-博客链接: [http://codeshold.me/2020/04/spark_optimize_skew.html](http://codeshold.me/2020/04/spark_optimize_skew.html)
+博客链接: [http://codeshold.com/2020/04/spark_optimize_skew.html](http://codeshold.com/2020/04/spark_optimize_skew.html)
 
 [TOC]
 
@@ -93,4 +93,4 @@ visitor_leads_fans_df.repartition($"random_index")
 
 ## REF
 - [腾讯云专栏](https://cloud.tencent.com/developer/article/1621351): https://cloud.tencent.com/developer/article/1621351
-- [codeshold.me](http://codeshold.me/)
+- [codeshold.com](http://codeshold.com/)

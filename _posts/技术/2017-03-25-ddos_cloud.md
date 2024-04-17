@@ -5,7 +5,7 @@ author: WenfengShi
 category: 技术
 tags: [security]
 ---
-博客链接: [http://codeshold.me/2017/03/ddos_cloud.html](http://codeshold.me/2017/03/ddos_cloud.h)
+博客链接: [http://codeshold.com/2017/03/ddos_cloud.html](http://codeshold.com/2017/03/ddos_cloud.h)
 
 > 360 ISC安全课程（http://www.ichunqiu.com/course/50301）自学知识点总结和补充  
 > 关键词：BGP引流、BGP Anycat、黑洞路由、SYN FLOOD防御、SSDP攻击、CC攻击

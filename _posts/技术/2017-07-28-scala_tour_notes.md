@@ -5,7 +5,7 @@ author: WenfengShi
 category: 技术
 tags: [scala]
 ---
-博客链接: [http://codeshold.me/2017/07/scala_tour_note.html](http://codeshold.me/2017/07/scala_tour_note.html)
+博客链接: [http://codeshold.com/2017/07/scala_tour_note.html](http://codeshold.com/2017/07/scala_tour_note.html)
 
 
 > 因实习，需要了解数据分析方面的知识，需要学习Spark、Scala，花了一天的时间过了一下scala教程（总结即是本文），但个人推荐先从《快学Scala+中文版》这本书开始看（正在看...）这个更适合入门…… 无奈自己后知后觉了……

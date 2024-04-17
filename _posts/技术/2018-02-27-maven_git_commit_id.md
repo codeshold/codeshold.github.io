@@ -5,7 +5,7 @@ author: WenfengShi
 category: 技术
 tags: [git,maven]
 ---
-博客链接: [http://codeshold.me/2018/02/maven_git_commit_id.html](http://codeshold.me/2018/02/maven_git_commit_id.html)
+博客链接: [http://codeshold.com/2018/02/maven_git_commit_id.html](http://codeshold.com/2018/02/maven_git_commit_id.html)
 
 - 插件名：[maven-git-commit-id-plugin](https://github.com/ktoso/maven-git-commit-id-plugin/)
 - pom.xml plugin配置样例

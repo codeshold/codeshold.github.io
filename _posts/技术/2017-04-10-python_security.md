@@ -5,7 +5,7 @@ author: WenfengShi
 category: 技术
 tags: [security, python]
 ---
-博客链接: [http://codeshold.me/2017/04/python_security.html](http://codeshold.me/2017/04/python_security.html)
+博客链接: [http://codeshold.com/2017/04/python_security.html](http://codeshold.com/2017/04/python_security.html)
 
 > 360 ISC
 

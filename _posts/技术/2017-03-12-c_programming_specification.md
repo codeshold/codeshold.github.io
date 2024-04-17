@@ -5,7 +5,7 @@ author: WenfengShi
 category: 技术
 tags: []
 ---
-> 原文链接: [http://codeshold.me/2017/03/c_programming_specification.html](http://codeshold.me/2017/03/c_programming_specification.html)  
+> 原文链接: [http://codeshold.com/2017/03/c_programming_specification.html](http://codeshold.com/2017/03/c_programming_specification.html)  
 
 
 > 参加华为软件精英挑战赛，复习了下基本的C语言编程规范，并做了小结！

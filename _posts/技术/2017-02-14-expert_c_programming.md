@@ -5,7 +5,7 @@ author: WenfengShi
 category: 技术
 tags: [读书笔记, c/c++]
 ---
-博客链接: [http://codeshold.me/2017/02/expert_c_programming.html](http://codeshold.me/2017/02/expert_c_programming.html)
+博客链接: [http://codeshold.com/2017/02/expert_c_programming.html](http://codeshold.com/2017/02/expert_c_programming.html)
 
 > 读一本书必输出一篇笔记或者总结！！！
 > 《C专家编程》这本书很早看完了，但整理笔记却断断续续的花了三天时间，这从侧面更说明了这本书的经典了（尽管不到300页）！

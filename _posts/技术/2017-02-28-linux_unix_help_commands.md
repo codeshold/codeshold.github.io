@@ -5,7 +5,7 @@ author: WenfengShi
 category: 技术
 tags: [linux]
 ---
-博客链接: [http://codeshold.me/2017/02/linux_unix_help_commands.html](http://codeshold.me/2017/02/linux_unix_help_commands.html)
+博客链接: [http://codeshold.com/2017/02/linux_unix_help_commands.html](http://codeshold.com/2017/02/linux_unix_help_commands.html)
 
 
 > 别人问我为什么不用百度或谷歌，我告诉他 “因为我知道这些”！

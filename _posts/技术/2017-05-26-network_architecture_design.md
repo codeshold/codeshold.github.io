@@ -5,7 +5,7 @@ author: WenfengShi
 category: 技术
 tags: [network]
 ---
-博客链接: [http://codeshold.me/2017/05/network_architecture_design.html](http://codeshold.me/2017/05/network_architecture_design.html)
+博客链接: [http://codeshold.com/2017/05/network_architecture_design.html](http://codeshold.com/2017/05/network_architecture_design.html)
 
 > 一本比较薄的书，就200来页，和《图解服务器端网络架构》一起看会很不错！
 [图灵书籍链接](http://www.ituring.com.cn/book/1504)

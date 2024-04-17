@@ -5,7 +5,7 @@ author: WenfengShi
 category: 科研
 tags: [security]
 ---
-博客链接: [http://codeshold.me/2017/02/system_security_refs.html](http://codeshold.me/2017/02/system_security_refs.html)
+博客链接: [http://codeshold.com/2017/02/system_security_refs.html](http://codeshold.com/2017/02/system_security_refs.html)
 
 > 课程内容主要讲解系统安全领域的相关技术，主要包括：系统安全技术发展历程和技术体系、操作系统安全、网络安全、虚拟化安全、物理安全、安全管理技术及标准、系统安全前沿发展等。
 

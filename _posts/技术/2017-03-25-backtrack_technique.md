@@ -5,7 +5,7 @@ author: WenfengShi
 category: 技术
 tags: [security]
 ---
-博客链接: [http://codeshold.me/2017/03/backtrack_technique.html](http://codeshold.me/2017/03/backtrack_technique.html)
+博客链接: [http://codeshold.com/2017/03/backtrack_technique.html](http://codeshold.com/2017/03/backtrack_technique.html)
 
 > ISC安全课程（http://www.ichunqiu.com/course/57277）自学知识点总结和补充  
 > 关键字：TAP方式、蠕虫网络、木马、僵尸网络、DNS放大攻击

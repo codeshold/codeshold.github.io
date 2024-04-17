@@ -5,7 +5,7 @@ author: WenfengShi
 category: 碎言
 tags: [技术分享]
 ---
-博客链接: [http://codeshold.me/2017/04/sdnlab_netdevops.html](http://codeshold.me/2017/04/sdnlab_netdevops.html)
+博客链接: [http://codeshold.com/2017/04/sdnlab_netdevops.html](http://codeshold.com/2017/04/sdnlab_netdevops.html)
 
 > 20170408 下午 沪太路335号 3Wcoffee
 > 网工不插线技术分享会 -- NetDevOps

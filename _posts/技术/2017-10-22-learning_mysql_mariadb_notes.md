@@ -5,7 +5,7 @@ author: WenfengShi
 category: 技术
 tags: [database]
 ---
-博客链接: [http://codeshold.me/2017/10/learning_mysql_mariadb_notes.html](http://codeshold.me/2017/10/learning_mysql_mariadb_notes.html)
+博客链接: [http://codeshold.com/2017/10/learning_mysql_mariadb_notes.html](http://codeshold.com/2017/10/learning_mysql_mariadb_notes.html)
 
 
 > 本文是《MySQL与MariaDB学习指南》的简要学习笔记，方便日后查询和回忆！

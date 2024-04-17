@@ -5,7 +5,7 @@ author: WenfengShi
 category: 技术
 tags: [linux]
 ---
-> 原文链接: [http://codeshold.me/2017/03/linux_programming.html](http://codeshold.me/2017/03/linux_programming.html)  
+> 原文链接: [http://codeshold.com/2017/03/linux_programming.html](http://codeshold.com/2017/03/linux_programming.html)  
 
 
 > 最近在面试腾讯时，被着重问了进程间的各种通信方式。面试结束后，借着机会，自己便把《Linux程序设计（第4版）》这本书整本过了一遍。针对该书的主要知识要点, 自己做了总结和适当的补充，同时也标明了书中的一些错误
@@ -136,7 +136,7 @@ tags: [linux]
 
 
 
-  [1]: http://codeshold.me/2017/03/c_programming_specification.html
+  [1]: http://codeshold.com/2017/03/c_programming_specification.html
   [2]: http://www.cnblogs.com/Anker/p/3265058.html
   [3]: http://www.cnblogs.com/Anker/p/5965654.html
 

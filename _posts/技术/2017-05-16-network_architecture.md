@@ -5,7 +5,7 @@ author: WenfengShi
 category: 技术
 tags: [network]
 ---
-博客链接: [http://codeshold.me/2017/05/network_architecture.html](http://codeshold.me/2017/05/network_architecture.html)
+博客链接: [http://codeshold.com/2017/05/network_architecture.html](http://codeshold.com/2017/05/network_architecture.html)
 
 > 一本写给网络架构师和服务器工程师的书! 很棒！
 对于想成为码网农工（码农＋网工）的我来说，这本书带给自己的帮助很大，至少让自己在参加网络技术大赛的期间收获了不少！

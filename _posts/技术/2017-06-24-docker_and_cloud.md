@@ -5,7 +5,7 @@ author: WenfengShi
 category: 技术
 tags: [docker, cloud]
 ---
-博客链接: [http://codeshold.me/2017/06/docker_and_cloud.html](http://codeshold.me/2017/06/docker_and_cloud.html)
+博客链接: [http://codeshold.com/2017/06/docker_and_cloud.html](http://codeshold.com/2017/06/docker_and_cloud.html)
 
 
 > 最开始自己读的是《Docker容器与容器云》第一版（实验室的小伙伴买的，还全新呢），后来在图灵社区提交“新勘误”时被`张霞@Turing`提醒已经出了第二版。于是，自己仔细看了下第二版的前言发现第一版和第二版的差别挺大的，尽管自己能理解Docker技术发展的迅速，但没想到Docker源码的迭代也是这么快！至此第一版很多的内容已经out了, 于是就用银子在社区上换了第二版的书！  

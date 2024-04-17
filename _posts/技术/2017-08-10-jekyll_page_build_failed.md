@@ -5,7 +5,7 @@ author: WenfengShi
 category: 技术
 tags: []
 ---
-博客链接: [http://codeshold.me/2017/08/jekyll_page_build_failed.html](http://codeshold.me/2017/08/jekyll_page_build_failed.html)
+博客链接: [http://codeshold.com/2017/08/jekyll_page_build_failed.html](http://codeshold.com/2017/08/jekyll_page_build_failed.html)
 
 > The page build failed for the `master` branch with the following error:
 Page build failed. For more information, see https://help.github.com/articles/troubleshooting-github-pages-builds/.

@@ -5,10 +5,10 @@ author: WenfengShi
 category: 技术
 tags: [database]
 ---
-博客链接: [http://codeshold.me/2018/03/mysql_crash_course_cn.html](http://codeshold.me/2018/03/mysql_crash_course_cn.html)
+博客链接: [http://codeshold.com/2018/03/mysql_crash_course_cn.html](http://codeshold.com/2018/03/mysql_crash_course_cn.html)
 
 > 《Mysql必知必会》(MySQL Crash Course)内容很丰富，mysql的各个方面都涉及到了，从基本的SQL增删改查到触发器、事务以及安全管理和性能提升，本书都做了精简的介绍。
-相比于另外两本相关的初学者读物——[《SQL基础教程》MICK著](http://codeshold.me/2017/10/learning_mysql_mariadb_notes.html)和[《MySQL与MariaDB学习指南》](http://codeshold.me/2017/12/sql_databases.html)。这本书可能更适合想对mysql有全面了解的（比如对mysql的高级功能）或者想成为数据库管理员的人阅读。
+相比于另外两本相关的初学者读物——[《SQL基础教程》MICK著](http://codeshold.com/2017/10/learning_mysql_mariadb_notes.html)和[《MySQL与MariaDB学习指南》](http://codeshold.com/2017/12/sql_databases.html)。这本书可能更适合想对mysql有全面了解的（比如对mysql的高级功能）或者想成为数据库管理员的人阅读。
 
 
 ## 简要介绍
@@ -25,7 +25,7 @@ tags: [database]
 7. 写SQL语句的惯例——关键词都大写，表明列名小写
 
 ## 基本用法
-> SQL基本用法可参考[笔记1](http://codeshold.me/2017/10/learning_mysql_mariadb_notes.html)和[笔记2](http://codeshold.me/2017/12/sql_databases.html)，这里仅就个别的点总结下
+> SQL基本用法可参考[笔记1](http://codeshold.com/2017/10/learning_mysql_mariadb_notes.html)和[笔记2](http://codeshold.com/2017/12/sql_databases.html)，这里仅就个别的点总结下
 
 1. 多用SHOW, `HELP SHOW`, `SHOW GRANTS`, `SHOW ERRORS`, `SHOW WARNINGS`
     - `DESCRIBE customers;`是 `SHOW COLUMNS FROM customers;`的快捷方式

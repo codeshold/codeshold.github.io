@@ -5,7 +5,7 @@ author: WenfengShi
 category: 技术
 tags: [心理学]
 ---
-> 博客链接: [http://codeshold.me/2017/10/100_things_designer.html](http://codeshold.me/2017/10/100_things_designer.html)
+> 博客链接: [http://codeshold.com/2017/10/100_things_designer.html](http://codeshold.com/2017/10/100_things_designer.html)
 
 
 1. 介绍

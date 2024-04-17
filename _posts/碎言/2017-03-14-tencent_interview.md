@@ -5,7 +5,7 @@ author: WenfengShi
 category: 碎言
 tags: []
 ---
-> 原文链接: [http://codeshold.me/2017/03/tencent_interview_1.html](http://codeshold.me/2017/03/tencent_interview_1.html)  
+> 原文链接: [http://codeshold.com/2017/03/tencent_interview_1.html](http://codeshold.com/2017/03/tencent_interview_1.html)  
 
 
 

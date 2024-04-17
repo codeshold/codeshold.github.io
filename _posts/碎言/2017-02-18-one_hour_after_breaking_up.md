@@ -5,7 +5,7 @@ author: WenfengShi
 category: 碎言
 tags: []
 ---
-博客链接: [http://codeshold.me/2017/02/one_hour_after_breaking_up.html](http://codeshold.me/2017/02/one_hour_after_breaking_up.html)
+博客链接: [http://codeshold.com/2017/02/one_hour_after_breaking_up.html](http://codeshold.com/2017/02/one_hour_after_breaking_up.html)
 
 
 

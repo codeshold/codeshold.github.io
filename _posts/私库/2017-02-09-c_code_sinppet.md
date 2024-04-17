@@ -5,7 +5,7 @@ author: WenfengShi
 category: 私库
 tags: [c/c++]
 ---
-博客链接: [http://codeshold.me/2017/02/c_code_sinped.html](http://codeshold.me/2017/02/c_code_sinped.html)
+博客链接: [http://codeshold.com/2017/02/c_code_sinped.html](http://codeshold.com/2017/02/c_code_sinped.html)
 
 > 编程的品味也有高低之分
 

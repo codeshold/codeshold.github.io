@@ -5,7 +5,7 @@ author: WenfengShi
 category: 技术
 tags: [c/c++, 读书笔记]
 ---
-原文链接:[http://codeshold.me/2017/01/c_trapsandpitfalls.html](http://codeshold.me/2017/01/c_trapsandpitfalls.html)
+原文链接:[http://codeshold.com/2017/01/c_trapsandpitfalls.html](http://codeshold.com/2017/01/c_trapsandpitfalls.html)
 
 
 > FORTAN: formula translator 公式翻译程式语言

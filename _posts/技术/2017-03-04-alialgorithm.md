@@ -5,7 +5,7 @@ author: WenfengShi
 category: 技术
 tags: [算法]
 ---
-博客链接: [http://codeshold.me/2017/03/alialgorithm.html](http://codeshold.me/2017/03/alialgorithm.html)
+博客链接: [http://codeshold.com/2017/03/alialgorithm.html](http://codeshold.com/2017/03/alialgorithm.html)
 
 ## 题目
 2017年3月阿里在线编程题(实习内推)

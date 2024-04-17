@@ -6,7 +6,7 @@ category: 技术
 tags: [network]
 ---
 
-博客链接: [http://codeshold.me/2017/08/tcpdump_tshark_notes.html](http://codeshold.me/2017/08/tcpdump_tshark_note.html)
+博客链接: [http://codeshold.com/2017/08/tcpdump_tshark_notes.html](http://codeshold.com/2017/08/tcpdump_tshark_note.html)
 
 > 平时需要对数据包进行分析和统计，尽管使用python scapy库来开发很方便，但若是熟悉tshark（wireshark的命令行)，tcpdump 等工具，含editcap，mergecap 等，写个简单的shell分析脚本，那会更加方便!
 

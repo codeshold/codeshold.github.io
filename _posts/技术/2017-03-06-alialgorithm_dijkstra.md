@@ -6,7 +6,7 @@ category: 技术
 tags: [算法]
 ---
 
-> 原文链接: [http://codeshold.me/2017/03/alialgorithm_dijkstra.html](http://codeshold.me/2017/03/alialgorithm_dijkstra.html)  
+> 原文链接: [http://codeshold.com/2017/03/alialgorithm_dijkstra.html](http://codeshold.com/2017/03/alialgorithm_dijkstra.html)  
 
 ## 题目
 西湖是杭州最有名的风景区，每年到西湖旅游的客户非常多，大家各自从不同的地方出发到西湖，交通问题非常令人头疼。阿里小二J准备通过高德地图实时数据和只能推荐帮助大家解决这个问题。

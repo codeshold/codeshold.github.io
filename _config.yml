@@ -16,9 +16,9 @@ author:
 # 站点信息
 title:              SWF's Hacking Dream 
 description:        这个家伙梦想成为一名黑客
-url:                http://codeshold.me
+url:                http://codeshold.com
 #url: http://127.0.0.1:4000 # debug
-production_url:     http://codeshold.me    # production_url是sitemap生成的url,方便百度谷歌收录.
+production_url:     http://codeshold.com    # production_url是sitemap生成的url,方便百度谷歌收录.
 
 
 # url_tags必须和tags.md中的permalink定义相同，这样定义的原因是不希望permalink中包含文件类型后缀。
@@ -40,7 +40,7 @@ gavatar:            /assets/img/avatar.png
 # google analytics 设置
 ga:
   id: 
-  url: codeshold.me
+  url: codeshold.com
 
 # disqus 设置
 # Set Up Disqus On a Your Own Site, this shortname is your unique Disqus URL.

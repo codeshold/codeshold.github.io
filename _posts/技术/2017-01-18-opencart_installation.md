@@ -5,7 +5,7 @@ author: WenfengShi
 category: 技术
 tags: [web]
 ---
-原文链接: [http://codeshold.me/2017/01/opencart_installation.html](http://codeshold.me/2017/01/opencart_installation.html)  
+原文链接: [http://codeshold.com/2017/01/opencart_installation.html](http://codeshold.com/2017/01/opencart_installation.html)  
 
 
 ## 前言
@@ -178,7 +178,7 @@ cgi-bin  html  vendor
 ![image_1b6m9vfu2gn4hjf1tk61qr2cve3m.png-30.2kB][10]
 
 ## 域名设置
-- 在阿里云**云解析DNS**上添加记录，如下（假设域名为[codeshold.me][11]）
+- 在阿里云**云解析DNS**上添加记录，如下（假设域名为[codeshold.com][11]）
 
 |记录类型|主机记录|记录值|解析线路|TTL（秒）|说明|
 |:------:|:------:|:----:|:------:|:-------:|----|
@@ -222,6 +222,6 @@ cgi-bin  html  vendor
   [8]: http://static.zybuluo.com/wuzhimang/5bh6zmkvcbo696w482vgt14t/image_1b6ln2cspq6m1pusaud7v01vic22.png
   [9]: http://static.zybuluo.com/wuzhimang/6x4yzgckm8qhihwng1llns6e/image_1b6lnoorg1mjc1br31s8e1nlh17md2f.png
   [10]: http://static.zybuluo.com/wuzhimang/y52eu99nu78qqewdtj8zp2jn/image_1b6m9vfu2gn4hjf1tk61qr2cve3m.png
-  [11]: http://codeshold.me/
+  [11]: http://codeshold.com/
   [12]: http://static.zybuluo.com/wuzhimang/nebcut87qu5sl67i8gm68mot/image_1b6m9h0ue12li11ll1j2r74n1ioq39.png
   [13]: http://static.zybuluo.com/wuzhimang/hlp1pc2ej3q1e6koqpcbzh2d/image_1b6m9fv5a163g13f983r12j15kq2s.png

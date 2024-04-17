@@ -19,7 +19,7 @@ tags: [shell]
   
 - 主要命令：`let`, `cat`, `变量字符串处理`, `数学计算`, `管道|`, `重定向`, `$`, `expr`, `bc`, `echo`, `$#`, `$*`, `$0`, `eval`, `tr`, `printf`, `read`, `tput`, `循环语句`, `条件语句`, `分隔符IFS`等  
   
-- [章节总结](http://codeshold.me/2016/09/linux_shell_scripting_cookbook_1.html)  
+- [章节总结](http://codeshold.com/2016/09/linux_shell_scripting_cookbook_1.html)  
   
 ## 第2章  
   
@@ -27,7 +27,7 @@ tags: [shell]
   
 - 主要命令：`cat`, `script`, `scriptreplay`, `find -exec`, `xargs`, `tr`, `md5sum`, `sha1sum`, `md5dep`, `crypt`, `gpg`, `base64`, `opensslpasswd`, `sort`, `uniq`, `mktemp`, `split`, `csplit`, `${URL%*.}`, `${URL##*.}`, `rename`, `look`, `echo -e`, `grep -q`, `PIDARRAY+=("$!")`, `expect`等  
   
-- [章节总结](http://codeshold.me/2016/09/linux_shell_scripting_cookbook_2.html) 
+- [章节总结](http://codeshold.com/2016/09/linux_shell_scripting_cookbook_2.html) 
   
 ## 第3章  
   
@@ -35,7 +35,7 @@ tags: [shell]
   
 - 常用命令：`comm`, `chmod/chown`, `chattr`, `touch`, `列出目录的相关命令`, `readlink`, `file`, `<<<`, `dd`, `有关光盘的各类命令`,`mkfs.ext4`, `mkisofs`, `isohybrid`, `mount/umount`, `fdisk`, `loseup`, `sync`, `cdrecord`, `eject`, `diff`, `patch`, `seq`, `tail`, `dmesg`, `pidof`, `pushd/popd`, `wc`, `tree`      
   
-- [章节总结](http://codeshold.me/2016/09/linux_shell_scripting_cookbook_3.html)  
+- [章节总结](http://codeshold.com/2016/09/linux_shell_scripting_cookbook_3.html)  
   
 ## 第4章  
   
@@ -43,7 +43,7 @@ tags: [shell]
   
 - 常用命令：`正则表达式`, `grep/egrep`, `sed`, `awk`, `cut`, `find`, `xargs`, `tr`, `变量切片`    
   
-- [章节总结](http://codeshold.me/2016/09/linux_shell_scripting_cookbook_4.html)  
+- [章节总结](http://codeshold.com/2016/09/linux_shell_scripting_cookbook_4.html)  
 
 
 ## 第5章   
@@ -51,7 +51,7 @@ tags: [shell]
   
 - 常用命令：`wget`, `lynx`, `curl`, `图片抓取脚本`, `网页相册生成脚本`  
   
-- [章节总结](http://codeshold.me/2016/09/linux_shell_scripting_cookbook_5.html)  
+- [章节总结](http://codeshold.com/2016/09/linux_shell_scripting_cookbook_5.html)  
   
 ## 第6章  
   
@@ -59,7 +59,7 @@ tags: [shell]
   
 - 常用命令： `tar`, `gzip`, `zcat`, `zip`, `unzip`, `lzma`, `pbzip`, `rsync`, `git`, `squashfs`, `fsarchiver`    
   
-- [章节总结](http://codeshold.me/2016/09/linux_shell_scripting_cookbook_6.html)  
+- [章节总结](http://codeshold.com/2016/09/linux_shell_scripting_cookbook_6.html)  
   
 ## 第7章  
   
@@ -67,7 +67,7 @@ tags: [shell]
   
 - 常用命令：`ifconfig`, `host`, `nslookup`, `dhclient`, `route`, `ping`, `fping`, `nc`, `lsof`, `netstat`, `iwconfig`, `ssh`, `sshfs`, `firewall`, `&子进程`    
   
-- [章节总结](http://codeshold.me/2016/09/linux_shell_scripting_cookbook_7.html)  
+- [章节总结](http://codeshold.com/2016/09/linux_shell_scripting_cookbook_7.html)  
   
   
 ## 第8章  
@@ -76,7 +76,7 @@ tags: [shell]
   
 - 常用命令：`du`, `time`, `ps`, `watch`, `whoami`, `who`, `w`, `users`, `uptime`, `last`, `logrotate`, `powertop`, `iotop`, `fsck`, **入侵检测脚本**, **活跃用户脚本**    
   
-- [章节总结](http://codeshold.me/2016/09/linux_shell_scripting_cookbook_8.html)  
+- [章节总结](http://codeshold.com/2016/09/linux_shell_scripting_cookbook_8.html)  
   
   
 ## 第9章  
@@ -85,5 +85,5 @@ tags: [shell]
   
 - 常用命令：`ps`, `which`, `whatis`, `whereis`, `file`, `pgrep`, `apropos`, `top`, `kill`, `trap`, `mesg`, `hostname`, `uname`, `/proc`, `crontab`, **imagemagick**, **mysql 脚本**, **用户管理脚本**, **图像管理脚本**    
   
-- [章节总结](http://codeshold.me/2016/09/linux_shell_scripting_cookbook_9.html)  
+- [章节总结](http://codeshold.com/2016/09/linux_shell_scripting_cookbook_9.html)  
   

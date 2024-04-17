@@ -5,7 +5,7 @@ author: WenfengShi
 category: 技术
 tags: []
 ---
-博客链接: [http://codeshold.me/2017/04/huawei_codecraft.html](http://codeshold.me/2017/04/huawei_codecraft.html)
+博客链接: [http://codeshold.com/2017/04/huawei_codecraft.html](http://codeshold.com/2017/04/huawei_codecraft.html)
 
 1. 软件精英挑战赛，清明节三天，累成狗了，通宵了两天, 很高兴进入了复赛
 

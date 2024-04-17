@@ -5,7 +5,7 @@ author: WenfengShi
 category: 技术
 tags: [network, tool]
 ---
-博客链接: [http://codeshold.me/2017/10/wdt_folly_install_centos.html](http://codeshold.me/2017/10/wdt_folly_install_centos.html)
+博客链接: [http://codeshold.com/2017/10/wdt_folly_install_centos.html](http://codeshold.com/2017/10/wdt_folly_install_centos.html)
 
 > 断断续续的摸索了三天，终于在 CentOS 7 上成功的安装了Facebook的 WDT！！！ 
 很麻烦，有选择的话，还是建议直接在Ubuntu上安装，可以节省很多时间和精力……

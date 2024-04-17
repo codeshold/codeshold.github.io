@@ -5,7 +5,7 @@ author: WenfengShi
 category: 技术
 tags: [c/c++]
 ---
-博客链接: [http://codeshold.me/2017/02/c_and_cplusplus.html](http://codeshold.me/2017/02/c_and_cplusplus.html)
+博客链接: [http://codeshold.com/2017/02/c_and_cplusplus.html](http://codeshold.com/2017/02/c_and_cplusplus.html)
 
 > 标题源自《C专家编程》，内容总结也参考该书
 

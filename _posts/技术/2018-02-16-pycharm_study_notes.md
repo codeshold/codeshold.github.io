@@ -5,7 +5,7 @@ author: WenfengShi
 category: 技术
 tags: [python, tools]
 ---
-博客链接: [http://codeshold.me/2018/02/pycharm_study_notes.html](http://codeshold.me/2018/02/pycharm_study_notes.html)
+博客链接: [http://codeshold.com/2018/02/pycharm_study_notes.html](http://codeshold.com/2018/02/pycharm_study_notes.html)
 
 [Pycharm简易教学视频][1] -- Paul Everitt
 

@@ -18,7 +18,7 @@ tags: []
 ![image_1b2gbr6ic1i1e1pog9iv1v6h66a9.png-347.7kB][1]
 
 ## 2. **00:15:40** 交友网站
-- snowden和他女朋友就是通过[geek-mate.com](http://www.codeshold.me/)网站认识的，至于这个网站是不是真的有，自己查查，不透露了！ （反正**geek-mate**这个域名是没有的，链接是博主的个人主页，哈哈）
+- snowden和他女朋友就是通过[geek-mate.com](http://www.codeshold.com/)网站认识的，至于这个网站是不是真的有，自己查查，不透露了！ （反正**geek-mate**这个域名是没有的，链接是博主的个人主页，哈哈）
 - 电影截图
 ![image_1b2gbt0sv1etb1p3ca3navpj4em.png-445.1kB][2]
 

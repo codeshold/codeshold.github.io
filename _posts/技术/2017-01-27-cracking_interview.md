@@ -5,7 +5,7 @@ author: WenfengShi
 category: 技术
 tags: [读书笔记]
 ---
-原文链接:[http://codeshold.me/2017/01/cracking_interview.html](http://codeshold.me/2017/01/cracking_interview.html)
+原文链接:[http://codeshold.com/2017/01/cracking_interview.html](http://codeshold.com/2017/01/cracking_interview.html)
 
 > 《程序员面试金典》 1-7章的总结  
 > 相关读物《金领简历：敲开苹果、微软、谷歌的大门》（Cayle Laakmann McDowell 盖尔 拉克曼 麦克道尔）careercup.com

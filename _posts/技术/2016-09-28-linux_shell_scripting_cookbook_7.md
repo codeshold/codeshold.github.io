@@ -18,13 +18,13 @@ tags: [shell]
   
 - 分配给当前系统的域名服务器`cat /etc/resolv.conf`  
   
-- `host codeshold.me`(/ect/hosts), `nslookup codeshold.me`  
+- `host codeshold.com`(/ect/hosts), `nslookup codeshold.com`  
   
 - `dhclient em1`  
   
 - `route add deafult gw IP_ADDRESS INTERFACE_NAME`, `route add default gw 192.168.0.1 wlan0`  
   
-- `ping -c 2 codeshold.me`, 列出网上所有活动的主机`fping`  
+- `ping -c 2 codeshold.com`, 列出网上所有活动的主机`fping`  
   
 - 通过`&`加速脚本执行速度，并行执行, `wait`等待所有子进程结束后在退出  
   
@@ -91,8 +91,8 @@ echo Successfully configured $IFACE
 ```  
   
 - **ssh 端口转发**  
-    1. `ssh -L 8000:www.codeshold.me:80 user@localhost` 将本地端口8000的流量转发到www.codeshold.me:80上  
-    2. `ssh -fL 8000:www.codeshold.me:80 user@localhost -N`, `-f`后台运行， `-N`无需执行命令，只进行端口转发  
+    1. `ssh -L 8000:www.codeshold.com:80 user@localhost` 将本地端口8000的流量转发到www.codeshold.com:80上  
+    2. `ssh -fL 8000:www.codeshold.com:80 user@localhost -N`, `-f`后台运行， `-N`无需执行命令，只进行端口转发  
     3. **反向端口转发**: `ssh -R 8000:localhost:80 user@REMOTEMACHINE`   
   
 - 在本地挂载远程驱动器  

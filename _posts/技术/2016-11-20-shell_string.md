@@ -23,10 +23,10 @@ tags: [shell]
 `${#string}`(`＃`号也称为为number sign)
 
 ## 字符串删除
-设定`string='http://www.codeshold.me/2016/11/mac_skills.html'`
-1. `${string#*/}` : 删掉第一个`/`及其左边的字符串，返回:`/www.codeshold.me/2016/11/mac_skills.html`
+设定`string='http://www.codeshold.com/2016/11/mac_skills.html'`
+1. `${string#*/}` : 删掉第一个`/`及其左边的字符串，返回:`/www.codeshold.com/2016/11/mac_skills.html`
 2. `${string##*/}`: 删掉最后一个`/`及其左边的字符串， 返回`mac_skills.html`
-3. `${string%/*`} : 删掉最后一个`/`及其右边的字符串，返回`http://www.codeshold.me/2016/11`
+3. `${string%/*`} : 删掉最后一个`/`及其右边的字符串，返回`http://www.codeshold.com/2016/11`
 4. `${string%%/*}`: 删除第一个`/`及其右边的字符串，返回`http:`
 5. 类似的有`${string#*.}`删掉第一个`.`及其左边的字符串，`${string%.*}`删掉最后一个`.`及其右边的字符串
 

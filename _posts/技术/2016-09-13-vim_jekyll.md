@@ -1,7 +1,7 @@
 ---
 title: vim--自动添加jekyll post信息头
 layout: post
-author: WenfengShi
+author: onephone
 category: 技术
 tags: [vim]
 ---
@@ -35,7 +35,7 @@ function JekyllMDHeader()
     call setline(1, "---")
     call append(1, "title: ")
     call append(2, "layout: post")
-    call append(3, "author: WenfengShi")
+    call append(3, "author: onephone")
     call append(4, category)
     call append(5, "tags: []")
     call append(6, "---")

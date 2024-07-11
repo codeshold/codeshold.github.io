@@ -1,7 +1,7 @@
 ---
 title: 高性能流量生成工具trafgen(DDoS模拟)
 layout: post
-author: WenfengShi
+author: onephone
 category: 技术
 tags: [network, security, tools]
 ---
@@ -139,11 +139,11 @@ trafgen属于netsniff-ng套件，是一款linux下的工具，安装很方便，
 
 
 
-  [1]: https://github.com/wenfengshi/ddos-dos-tools
+  [1]: https://github.com/onephone/ddos-dos-tools
   [2]: http://static.zybuluo.com/wuzhimang/mhfkf1drooxo2ua6ty5cceed/image_1b6bf8ooa3im1ioc1kc7aeu1qo89.png
   [3]: http://static.zybuluo.com/wuzhimang/c9tv8lr5a7elsipj8zwjl6tl/image_1b6bfeukr5m628h14ciupq1tnnm.png
   [4]: http://static.zybuluo.com/wuzhimang/hujkjhes3d7n42iptoaovv2o/image_1b6bftaek14a4il1fp5l3dr5213.png
   [5]: http://static.zybuluo.com/wuzhimang/28r16zkja4memce251azvmx4/image_1b6bfv9751ojs1g6klulc4jaak1g.png
-  [6]: https://github.com/wenfengshi/ddos-dos-tools
-  [7]: https://github.com/wenfengshi/ddos-dos-tools
+  [6]: https://github.com/onephone/ddos-dos-tools
+  [7]: https://github.com/onephone/ddos-dos-tools
   [8]: http://static.zybuluo.com/wuzhimang/b16skp1a811ullz8hfuzq0h0/image_1b6bgp1mntnf15a61bppjvs1f7a1t.png

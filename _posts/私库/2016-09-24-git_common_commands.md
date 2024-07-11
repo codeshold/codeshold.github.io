@@ -1,7 +1,7 @@
 --- 
 title: 实用的 git 技巧
 layout: post
-author: WenfengShi
+author: onephone
 category: 私库
 tags: [git]
 ---

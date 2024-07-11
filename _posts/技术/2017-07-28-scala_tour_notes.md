@@ -1,7 +1,7 @@
 ---
 title: Scala Tour 学习总结
 layout: post
-author: WenfengShi
+author: onephone
 category: 技术
 tags: [scala]
 ---

@@ -1,7 +1,7 @@
 ---
 title: Python 学习资源
 layout: post
-author: WenfengShi
+author: onephone
 category: 资源
 tags: [python]
 ---

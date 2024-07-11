@@ -1,7 +1,7 @@
 ---
 title: 网卡参数查询及设置工具ethtool
 layout: post
-author: WenfengShi
+author: onephone
 category: 技术
 tags: [network, tools]
 ---

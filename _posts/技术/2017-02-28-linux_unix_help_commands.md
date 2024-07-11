@@ -1,7 +1,7 @@
 ---
 title: Uinx/Linux上的帮助查询命令
 layout: post
-author: WenfengShi
+author: onephone
 category: 技术
 tags: [linux]
 ---

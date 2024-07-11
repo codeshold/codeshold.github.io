@@ -1,7 +1,7 @@
 ---
 title: 你懂C，所以C++不在话下
 layout: post
-author: WenfengShi
+author: onephone
 category: 技术
 tags: [c/c++]
 ---

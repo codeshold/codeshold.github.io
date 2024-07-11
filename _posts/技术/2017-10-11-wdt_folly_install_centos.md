@@ -1,7 +1,7 @@
 ---
 title: WDT (Folly) 安装指南 -- CentOS 7
 layout: post
-author: WenfengShi
+author: onephone
 category: 技术
 tags: [network, tool]
 ---

@@ -1,7 +1,7 @@
 ---
 title: “图解基础设施设计模式”小结
 layout: post
-author: WenfengShi
+author: onephone
 category: 技术
 tags: [network]
 ---

@@ -1,7 +1,7 @@
 ---
 title: Tech Terms
 layout: post
-author: WenfengShi
+author: onephone
 category: 私库
 tags: []
 ---

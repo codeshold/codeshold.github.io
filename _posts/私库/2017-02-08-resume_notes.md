@@ -1,7 +1,7 @@
 ---
 title: 简历撰写要则
 layout: post
-author: WenfengShi
+author: onephone
 category: 私库
 tags: [读书笔记]
 ---

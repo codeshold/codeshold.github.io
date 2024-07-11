@@ -1,7 +1,7 @@
 ---
 title: 屡试不爽的“3个”iPad使用技巧
 layout: post
-author: WenfengShi
+author: onephone
 category: 技术
 tags: [tools]
 ---

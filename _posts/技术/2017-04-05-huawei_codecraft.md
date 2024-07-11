@@ -1,7 +1,7 @@
 ---
 title: 华为挑战赛(1)
 layout: post
-author: WenfengShi
+author: onephone
 category: 技术
 tags: []
 ---

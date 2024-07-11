@@ -1,7 +1,7 @@
 ---
 title: C陷阱与缺陷--笔记
 layout: post
-author: WenfengShi
+author: onephone
 category: 技术
 tags: [c/c++, 读书笔记]
 ---

@@ -1,7 +1,7 @@
 ---
 title: jar包名中自动添加git commit id
 layout: post
-author: WenfengShi
+author: onephone
 category: 技术
 tags: [git,maven]
 ---

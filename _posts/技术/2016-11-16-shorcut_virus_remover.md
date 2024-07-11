@@ -1,7 +1,7 @@
 ---
 title: 中毒U盘恢复--快捷键病毒
 layout: post
-author: WenfengShi
+author: onephone
 category: 技术
 tags: [script]
 ---

@@ -1,7 +1,7 @@
 ---
 title: linux shell 学习摘记（5） 
 layout: post
-author: WenfengShi
+author: onephone
 category: 技术
 tags: [shell]
 ---
@@ -48,9 +48,9 @@ sed -n 's/.*<title>\(.*\)<\/title.*<author><name>\([^<]*\)<\/name><email>\([^<]*
 head -n $(( $SHOW_COUNT * 3))
 ```
 
-- [图片抓取器](https://github.com/wenfengshi/CoScripts/blob/master/shell/img_downloader.sh)
+- [图片抓取器](https://github.com/onephone/CoScripts/blob/master/shell/img_downloader.sh)
 
-- [网页相册](https://github.com/wenfengshi/CoScripts/blob/master/shell/generate_album.sh)
+- [网页相册](https://github.com/onephone/CoScripts/blob/master/shell/generate_album.sh)
 
-- POST请求 `curl URL -d "XXX"`, `wget URL --post-data "XXX" -O output.html` [脚本](https://github.com/wenfengshi/CoScripts/blob/master/shell/FDU_login.sh)
+- POST请求 `curl URL -d "XXX"`, `wget URL --post-data "XXX" -O output.html` [脚本](https://github.com/onephone/CoScripts/blob/master/shell/FDU_login.sh)
 

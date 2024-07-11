@@ -1,7 +1,7 @@
 ---
 title: 系统安全课程参考资料
 layout: post
-author: WenfengShi
+author: onephone
 category: 科研
 tags: [security]
 ---

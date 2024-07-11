@@ -1,7 +1,7 @@
 ---
 title: MySQL与MariaDB学习笔记
 layout: post
-author: WenfengShi
+author: onephone
 category: 技术
 tags: [database]
 ---

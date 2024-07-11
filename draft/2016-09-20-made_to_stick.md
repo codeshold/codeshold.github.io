@@ -1,7 +1,7 @@
 ---
 title: 《让创意更有黏性》读书笔记
 layout: post
-author: WenfengShi
+author: onephone
 category: 读书
 tags: [读书笔记]
 ---

@@ -1,7 +1,7 @@
 ---
 title: firefox vim 插件 vimperator
 layout: post
-author: WenfengShi
+author: onephone
 category: 技术
 tags: [vim]
 ---

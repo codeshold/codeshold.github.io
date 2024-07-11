@@ -1,7 +1,7 @@
 ---
 title: 项目总结--记代码最值钱的一次
 layout: post
-author: WenfengShi
+author: onephone
 category: 科研
 tags: [note]
 ---
@@ -15,12 +15,12 @@ tags: [note]
 3. 整个项目对性能要求比较高，尤其是抓包和数据包分析这一块
 4. 同web端的通信都是通过**POST**消息完成的，数据交换格式为**json**
 5. 做的是一个网络流量**记录、分析及监控系统**，功能不复杂，但小功能比较多，功能大部分针对特定的应用场景
-6. 开源了部分不敏感的代码 [github地址](https://github.com/wenfengshi/GPAgent/tree/master/agent) 
+6. 开源了部分不敏感的代码 [github地址](https://github.com/onephone/GPAgent/tree/master/agent) 
 
 ## DDoS项目
 1. 项目不复杂，但战线拉的长
 2. 挺符合自己的兴趣的，项目目标是搭建软件环境，模拟DDoS攻击，完成对几家抗DDoS硬件产品的测评
-3. 开源了部分不敏感的代码**DDoS/DoS工具集合** [github地址](https://github.com/wenfengshi/ddos-dos-tools)，简单介绍[博文](http://codeshold.com/2017/01/ddos_tools_set.html)
+3. 开源了部分不敏感的代码**DDoS/DoS工具集合** [github地址](https://github.com/onephone/ddos-dos-tools)，简单介绍[博文](http://codeshold.com/2017/01/ddos_tools_set.html)
 4. 这个准备自己一直做下去，纯粹的兴趣
 
 ## 科研项目
@@ -38,4 +38,4 @@ tags: [note]
 
 
 
-  [1]: https://github.com/wenfengshi/GPAgent/tree/master/agent
+  [1]: https://github.com/onephone/GPAgent/tree/master/agent

@@ -1,7 +1,7 @@
 ---
 title: 一篇特别长的总结(C专家编程)
 layout: post
-author: WenfengShi
+author: onephone
 category: 技术
 tags: [读书笔记, c/c++]
 ---

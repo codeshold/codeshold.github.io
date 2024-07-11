@@ -4,6 +4,8 @@ _drafts/
 .DS_Store
 .sass-cache
 .jekyll-metadata
+Gemfile.lock
+
 
 # vi
 *~

@@ -1,16 +1,19 @@
 # Owner/Author information
+
+baseurl: //
+
 author:
   name:             onephone
   avatar:           /assets/img/avatar.png
   email:            wuzhimang@gmail.com
   # Social networking links used in footer. Update and remove as you like.
-  github:           https://github.com/wenfengshi
+  github:           https://github.com/codeshold
   linkedin:         https://cn.linkedin.com/in/wenfeng-shi-643474129
   douban:           https://www.douban.com/people/138288726/
   twitter:          https://twitter.com/wuzhimang 
   wechat:           /assets/img/wechat.png
   qq:               /assets/img/qq.png
-  resume:           /assets/RESUME.pdf
+  resume:           /nothings/empty.pdf
 
 
 # 站点信息

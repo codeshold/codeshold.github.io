@@ -1,7 +1,7 @@
 ---
 title: windows注册表小知识
 layout: post
-author: WenfengShi
+author: onephone
 category: 技术
 tags: [windows]
 ---

@@ -1,7 +1,7 @@
 ---
 title: 数据包过滤及分析实例 tshark tcpdump
 layout: post
-author: WenfengShi
+author: onephone
 category: 技术
 tags: [network]
 ---
@@ -109,6 +109,6 @@ tcpdump -Z root -r src.pcap "((tcp[24:4]==0x2f626964 and tcp[28:4]==696d67ef) an
 ```
 
 ## Ref
-1. [一些简单的脚本](https://github.com/wenfengshi/GPAgent/tree/master/agent/script)
+1. [一些简单的脚本](https://github.com/onephone/GPAgent/tree/master/agent/script)
 2. [很棒的参考](https://wiki.wireshark.org/Tools)
 

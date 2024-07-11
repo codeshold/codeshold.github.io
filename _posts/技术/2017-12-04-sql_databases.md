@@ -1,7 +1,7 @@
 ---
 title: 《SQL基础教程》简要总结
 layout: post
-author: WenfengShi
+author: onephone
 category: 技术
 tags: [database, 读书笔记]
 ---

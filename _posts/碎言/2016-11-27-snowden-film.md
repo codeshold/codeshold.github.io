@@ -1,7 +1,7 @@
 ---
 title: Snowden--程序员观感
 layout: post
-author: WenfengShi
+author: onephone
 category: 碎言
 tags: []
 ---

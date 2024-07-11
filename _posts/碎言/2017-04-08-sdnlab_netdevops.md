@@ -1,7 +1,7 @@
 ---
 title: NetDevOps技术分享会
 layout: post
-author: WenfengShi
+author: onephone
 category: 碎言
 tags: [技术分享]
 ---

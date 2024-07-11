@@ -1,7 +1,7 @@
 ---
 title: 流量控制工具TC详细说明
 layout: post
-author: WenfengShi
+author: onephone
 category: 技术
 tags: [network, tools]
 ---

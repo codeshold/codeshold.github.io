@@ -1,7 +1,7 @@
 ---
 title: linux shell 学习摘记（7） 
 layout: post
-author: WenfengShi
+author: onephone
 category: 技术
 tags: [shell]
 ---

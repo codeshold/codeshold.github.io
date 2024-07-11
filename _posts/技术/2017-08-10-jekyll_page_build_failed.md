@@ -1,7 +1,7 @@
 ---
 title: ［solved］Page build failed(Jekyll)
 layout: post
-author: WenfengShi
+author: onephone
 category: 技术
 tags: []
 ---
@@ -40,15 +40,15 @@ Hope this helps!
     - 简单说，升级Jekyll的方式有两种：一种是删除Gemfile.lock文件后update；第二种是修改Genfile文件后update
     - 如下，Jekyll升级成功（顺带着自己也把bundle升级了）：
         ```bash
-        RICHIEWFSHI-MB0:wenfengshi.github.io wenfeng$ bundle exec jekyll --version
+        RICHIEWFSHI-MB0:onephone.github.io wenfeng$ bundle exec jekyll --version
         jekyll 3.4.3
         
-        RICHIEWFSHI-MB0:wenfengshi.github.io wenfeng$ bundle update jekyll
+        RICHIEWFSHI-MB0:onephone.github.io wenfeng$ bundle update jekyll
         ......
         Using github-pages 148
         Bundle updated!
         
-        RICHIEWFSHI-MB0:wenfengshi.github.io wenfeng$ bundle exec jekyll -v
+        RICHIEWFSHI-MB0:onephone.github.io wenfeng$ bundle exec jekyll -v
         jekyll 3.5.1
         ```
 2. 本地开始重现问题后，`bundle jekyll serve -V -t`启动Jekyll

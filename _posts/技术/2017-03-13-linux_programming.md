@@ -1,7 +1,7 @@
 ---
 title: “Linux程序设计”小结（进程间通信）
 layout: post
-author: WenfengShi
+author: onephone
 category: 技术
 tags: [linux]
 ---

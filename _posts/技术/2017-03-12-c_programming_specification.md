@@ -1,7 +1,7 @@
 ---
 title: C语言编程规范（华为软件精英挑战赛）
 layout: post
-author: WenfengShi
+author: onephone
 category: 技术
 tags: []
 ---

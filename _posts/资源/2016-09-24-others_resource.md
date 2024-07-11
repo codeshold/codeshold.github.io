@@ -1,7 +1,7 @@
 ---
 title: 计算机丛书 学习资源
 layout: post
-author: WenfengShi
+author: onephone
 category: 资源
 tags: []
 ---

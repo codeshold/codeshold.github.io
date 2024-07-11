@@ -1,7 +1,7 @@
 ---
 title: vim 自动给文件添加头部信息
 layout: post
-author: WenfengShi
+author: onephone
 category: 技术
 tags: [vim]
 ---
@@ -12,7 +12,7 @@ tags: [vim]
 ---
 title: 
 layout: post
-author: WenfengShi
+author: onephone
 category: 技术
 tags: []
 ---
@@ -27,7 +27,7 @@ func JekyllMDHeader()
     call setline(1, "---")
     call append(1, "title: ")
     call append(2, "layout: post")
-    call append(3, "author: WenfengShi")
+    call append(3, "author: onephone")
     call append(4, "category: 技术")
     call append(5, "tags: []")
     call append(6, "---")

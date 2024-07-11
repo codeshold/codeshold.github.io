@@ -1,7 +1,7 @@
 ---
 title: “和平分手”一小时后
 layout: post
-author: WenfengShi
+author: onephone
 category: 碎言
 tags: []
 ---

@@ -1,7 +1,7 @@
 ---
 title: IBM bluemix
 layout: post
-author: WenfengShi
+author: onephone
 category: 技术
 tags: [note]
 ---

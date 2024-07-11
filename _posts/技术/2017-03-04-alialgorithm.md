@@ -1,7 +1,7 @@
 ---
 title: 2017年阿里在线编程题-- 数串分组
 layout: post
-author: WenfengShi
+author: onephone
 category: 技术
 tags: [算法]
 ---

@@ -1,7 +1,7 @@
 ---
 title: 程序员面试金典--笔记(精华篇)
 layout: post
-author: WenfengShi
+author: onephone
 category: 技术
 tags: [读书笔记]
 ---

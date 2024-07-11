@@ -1,7 +1,7 @@
 ---
 title: shell内置字符串处理
 layout: post
-author: WenfengShi
+author: onephone
 category: 技术
 tags: [shell]
 ---

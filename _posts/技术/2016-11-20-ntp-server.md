@@ -1,7 +1,7 @@
 ---
 title: 配置ntp(知其所以然)
 layout: post
-author: WenfengShi
+author: onephone
 category: 技术
 tags: [linux]
 ---

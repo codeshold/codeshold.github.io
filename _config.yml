@@ -39,7 +39,7 @@ gavatar:            /assets/img/avatar.png
 
 # google analytics 设置
 ga:
-  id: 
+  id: G-DL095PZG0V
   url: codeshold.com
 
 # disqus 设置
@@ -114,15 +114,6 @@ kramdown:
   hard_wrap: true
   syntax_highlighter: rouge
 # Fixing highlighting errors: pygments not supported.
-
-# highlighter: rouge
-    
-
-# Analytics and webmaster tools stuff goes here
-google_analytics:   
-google_verify:      
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
 
 
 include: []

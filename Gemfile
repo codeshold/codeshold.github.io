@@ -1,8 +1,7 @@
-source 'https://rubygems.org'
+source 'https://gems.ruby-china.com/'
 
 gem "github-pages", "~> 231", group: :jekyll_plugins
 
-# gem "jekyll-github-metadata"
+gem 'webrick'
 
-
-gem "webrick", "~> 1.8"
+gem 'faraday-retry'

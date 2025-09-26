@@ -1,6 +1,8 @@
 # Owner/Author information
 
-baseurl: /
+url:
+  development: "http://localhost:4001"
+  production: "https://guomin.darlings.life"
 
 author:
   name:             和敏宝打怪升级
@@ -17,11 +19,9 @@ author:
 
 
 # 站点信息
-title:              Allergies're simple!
-description:        过敏知识分享
-url:                http://guomin.darlings.life
-#url: http://127.0.0.1:4000 # debug
-production_url:     http://guomin.darlings.life    # production_url是sitemap生成的url,方便百度谷歌收录.
+title:             和敏宝打怪升级
+description:       过敏知识分享, Allergies're simple!
+production_url:    https://guomin.darlings.life    # production_url是sitemap生成的url,方便百度谷歌收录.
 
 
 # url_tags必须和tags.md中的permalink定义相同，这样定义的原因是不希望permalink中包含文件类型后缀。
@@ -94,19 +94,14 @@ kramdown:
   syntax_highlighter: rouge
 
 include: []
-exclude: ["README.md"]
 
-plugins:
-- jekyll-paginate
-- jekyll-sitemap
-- jekyll-github-metadata
-- jekyll-mentions
-- jekyll-redirect-from
-- jemoji
+exclude: ["README.md", "vendor", ".bundle", "node_modules", "Gemfile.lock", "Gemfile"]
 
-exclude:
-  - vendor
-  - .bundle
-  - node_modules
-  - Gemfile.lock
-  - Gemfile
+plugins: []
+#plugins:
+#- jekyll-paginate
+#- jekyll-sitemap
+##- jekyll-github-metadata
+#- jekyll-mentions
+#- jekyll-redirect-from
+##- jemojirepository: username/repo-name

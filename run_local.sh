@@ -1,1 +1,1 @@
-bundle exec jekyll server --port 4001
+bundle exec jekyll server

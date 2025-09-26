@@ -1,8 +1,6 @@
 # Owner/Author information
 
-url:
-  development: "http://localhost:4001"
-  production: "https://guomin.darlings.life"
+url: "https://guomin.darlings.life"
 
 author:
   name:             和敏宝打怪升级

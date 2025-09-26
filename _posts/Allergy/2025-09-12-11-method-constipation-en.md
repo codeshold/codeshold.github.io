@@ -1,5 +1,5 @@
 ---
-title: 11 Methods for Constipation in Allergy-Prone Babies
+title: 💩11 Methods for Constipation in Allergy-Prone Babies
 layout: post
 author: 和敏宝打怪升级
 category: Allergy

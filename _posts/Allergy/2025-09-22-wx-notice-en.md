@@ -1,5 +1,5 @@
 ---
-title: 📚 Allergy Resource List (Announcement)
+title: 📚Allergy Resource List (Announcement)
 layout: post
 author: 和敏宝打怪升级
 category: Allergy

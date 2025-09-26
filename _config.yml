@@ -104,3 +104,9 @@ plugins:
 - jekyll-redirect-from
 - jemoji
 
+exclude:
+  - vendor
+  - .bundle
+  - node_modules
+  - Gemfile.lock
+  - Gemfile

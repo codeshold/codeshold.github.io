@@ -1,7 +1,7 @@
-> 【技术交流QQ群: **635806352**（加群请备注仓库链接）】
+> 【敏宝技术交流】
+> 微信群: swf2048
+> QQ群: **1050300223**
 
 ## 说明
 
-[blog.darlings.life](http://blog.darlings.life)--SWF's Hacking Dream!
-
-Thanks for painterlin's theme!
+[guomin.darlings.life](http://guomin.darlings.life)--Allergies're simple!

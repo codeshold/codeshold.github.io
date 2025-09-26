@@ -42,13 +42,13 @@ tags: [Allergy]
 ![QR Code](https://blog-1252538339.cos.ap-chengdu.myqcloud.com/minbao/assets/img/ima_qr.jpg){: width="200" height="200" }
 - Instructions: [Video Tutorial](http://xhslink.com/o/1b0fGInzrlP)
 
-### 2.1 Knowledge Base References
-1. [Allergy Books](https://blog-1252538339.cos.ap-chengdu.myqcloud.com/minbao/assets/img/minbao_books.jpg) **19 Books** (`View/Download`)
-   [Allergy Books](https://blog-1252538339.cos.ap-chengdu.myqcloud.com/minbao/assets/img/minbao_books.jpg){: width="200" height="200" }
-2. [Diagnosis Guidelines](https://blog-1252538339.cos.ap-chengdu.myqcloud.com/minbao/assets/img/minbao_medical.jpg) **14 Books** (`View/Download`)
-   [Diagnosis Guidelines](https://blog-1252538339.cos.ap-chengdu.myqcloud.com/minbao/assets/img/minbao_medical.jpg){: width="200" height="200" }
-3. `Allergic Baby Parents Group` Experience & Recommendations (100K Words, AI-Extracted Core Content)
-4. `Blogger Xiaohongshu Notes` (55+)
+- Knowledge Base References
+    1. [Allergy Books](https://blog-1252538339.cos.ap-chengdu.myqcloud.com/minbao/assets/img/minbao_books.jpg) **19 Books** (`View/Download`)
+       [Allergy Books](https://blog-1252538339.cos.ap-chengdu.myqcloud.com/minbao/assets/img/minbao_books.jpg){: width="200" height="200" }
+    2. [Diagnosis Guidelines](https://blog-1252538339.cos.ap-chengdu.myqcloud.com/minbao/assets/img/minbao_medical.jpg) **14 Books** (`View/Download`)
+       [Diagnosis Guidelines](https://blog-1252538339.cos.ap-chengdu.myqcloud.com/minbao/assets/img/minbao_medical.jpg){: width="200" height="200" }
+    3. `Allergic Baby Parents Group` Experience & Recommendations (100K Words, AI-Extracted Core Content)
+    4. `Blogger Xiaohongshu Notes` (55+)
 
 ## 3. Allergy Community 💬
 ### 3.1 Fan Transfers (Formula)

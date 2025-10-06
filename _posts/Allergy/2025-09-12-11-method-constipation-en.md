@@ -1,5 +1,5 @@
 ---
-title: 💩11 Methods for Constipation in Allergy-Prone Babies
+title: 11 Methods for Constipation in Allergy-Prone Babies
 layout: post
 author: 和敏宝打怪升级
 category: Allergy
@@ -11,7 +11,7 @@ tags: [Allergy, Constipation]
 #### 🤔 How to do it:
 - Check recent foods to identify potential allergens
 	- ⭕️ Mother's diet (if breastfeeding)
-	- ⭕️ Formula
+	- ⭕️ Formuli
 	- ⭕️ Solid foods
 - If formula allergy is suspected, consider switching
 	- Partially hydrolyzed, extensively hydrolyzed, or amino acid-based

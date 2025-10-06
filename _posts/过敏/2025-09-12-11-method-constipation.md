@@ -1,5 +1,5 @@
 ---
-title: 💩敏宝便秘的11种方法
+title: 敏宝便秘的11种方法
 layout: post
 author: 和龙宝打怪升级
 category: 过敏

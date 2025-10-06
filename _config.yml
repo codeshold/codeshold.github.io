@@ -30,6 +30,7 @@ production_url:    https://guomin.darlings.life    # production_url是sitemap生
 # 
 url_rss:            /pages/atom.xml
 url_about:          /pages/about.html
+url_about_en:       /pages/about_en.html
 url_archives:       /pages/archive.html
 url_atom:           /pages/atom.html
 url_tags:           /pages/tags.html
@@ -71,6 +72,7 @@ cates:
 locals:
   tags: "# 标签"
   about: "# 关于"
+  about_en: "# About"
   newest: "最新文章"
   archive: "# 归档"
 

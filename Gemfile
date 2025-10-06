@@ -5,3 +5,5 @@ gem "github-pages", "~> 231", group: :jekyll_plugins
 gem 'webrick'
 
 gem 'faraday-retry'
+
+gem 'jekyll-sitemap'

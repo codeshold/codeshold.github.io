@@ -96,8 +96,8 @@ include: []
 
 exclude: ["README.md", "vendor", ".bundle", "node_modules", "Gemfile.lock", "Gemfile"]
 
-plugins:
-  - jekyll-sitemap
+plugins: []
+#  - jekyll-sitemap
 #- jekyll-paginate
 ##- jekyll-github-metadata
 #- jekyll-mentions

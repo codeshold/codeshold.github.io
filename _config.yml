@@ -45,6 +45,12 @@ ga:
   id: G-DL095PZG0V
   url: guomin.darlings.life
 
+# 网站备案信息
+beian:
+  icp: "沪ICP备2024045861号"
+  gongan: "粤公网安备xxxxxxxx号"
+  contact_email: "wuzhimang@gmail.com"
+
 # disqus 设置
 # Set Up Disqus On a Your Own Site, this shortname is your unique Disqus URL.
 # something like this: shortname.disqus.com

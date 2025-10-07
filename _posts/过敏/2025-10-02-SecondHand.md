@@ -2,6 +2,7 @@
 title: 🤝敏宝-二手转让
 layout: post
 author: 和敏宝打怪升级
+description: "过敏宝宝二手物品转让平台，包括奶粉、益生菌等物品的安全转让，适合敏宝家长使用"
 category: 过敏
 tags: [敏宝, 二手转让]
 ---

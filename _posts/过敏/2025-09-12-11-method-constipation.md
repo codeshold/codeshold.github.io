@@ -2,8 +2,9 @@
 title: 敏宝便秘的11种方法
 layout: post
 author: 和龙宝打怪升级
+description: "详细介绍了缓解宝宝便秘的11种方法，很适合过敏体质宝宝，有物理方法（如推拿）也有食物、药剂等等"
 category: 过敏
-tags: [敏宝,过敏,便秘]
+tags: [敏宝,便秘]
 ---
 
 

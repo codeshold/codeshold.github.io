@@ -2,8 +2,9 @@
 title: 📚Allergy Resource List (Announcement)
 layout: post
 author: 和敏宝打怪升级
+description: "Allergy Resource List (Announcement)"
 category: Allergy
-tags: [Allergy]
+tags: [Resource]
 ---
 
 ## 0. Allergy Community

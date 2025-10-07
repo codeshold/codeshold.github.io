@@ -2,8 +2,9 @@
 title: Allergy - Anti-Allergy Probiotics Recommendations
 layout: post
 author: Fighting Allergies with Baby
+description: "Allergy - Anti-Allergy Probiotics Recommendations"
 category: Allergy
-tags: [Allergy, Probiotics]
+tags: [Probiotics]
 ---
 
 ## Experience from a 1560 CNY Consultation Fee (Important❗️❗️❗️)

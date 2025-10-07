@@ -2,8 +2,9 @@
 title: 📚 Allergy Resources Download
 layout: post
 author: Fighting Allergies with Baby
+description: "Allergy Resources Download"
 category: Allergy
-tags: [Allergy, Resources]
+tags: [Resources]
 ---
 
 ## Essential Resources ⏬

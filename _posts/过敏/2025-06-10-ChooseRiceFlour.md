@@ -2,15 +2,16 @@
 title: 怎么选择高铁米粉,就2步
 layout: post
 author: 和敏宝打怪升级
+description: "过敏宝宝高铁米粉的选择指南，包括安全性和适用性分析，适合敏宝家长参考"
 category: 过敏
-tags: [敏宝,过敏,高铁米粉]
+tags: [敏宝,高铁米粉]
 ---
 
 > [小红书笔记链接]( https://www.xiaohongshu.com/discovery/item/6822df8f000000002001ec1d?source=webshare&xhsshare=pc_web&xsec_token=YBRNE5O3Q5MLeXTpqQ3ApweWkAr48W4r5_6ALfNYYrElc=&xsec_source=pc_share)
 
-![1](https://blog-1252538339.cos.ap-chengdu.myqcloud.com/minbao/p_%E9%AB%98%E9%93%81%E7%B1%B3%E7%B2%89/%E5%AE%9D%E5%AE%9D%E8%BE%85%E9%A3%9F_%E6%95%8F%E5%AE%9D_%E7%B1%B3%E7%B2%89%E6%80%8E%E4%B9%88%E9%80%89%EF%BC%8C%E6%8E%A8%E8%8D%90%E6%B5%8B%E8%AF%84_1_%E5%92%8C%E6%95%8F%E5%AE%9D%E6%89%93%E6%80%AA%E5%8D%87%E7%BA%A7_%E6%9D%A5%E8%87%AA%E5%B0%8F%E7%BA%A2%E4%B9%A6%E7%BD%91%E9%A1%B5%E7%89%88.jpg){: width="300" height="250" }
+![高铁米粉1](https://blog-1252538339.cos.ap-chengdu.myqcloud.com/minbao/p_%E9%AB%98%E9%93%81%E7%B1%B3%E7%B2%89/%E5%AE%9D%E5%AE%9D%E8%BE%85%E9%A3%9F_%E6%95%8F%E5%AE%9D_%E7%B1%B3%E7%B2%89%E6%80%8E%E4%B9%88%E9%80%89%EF%BC%8C%E6%8E%A8%E8%8D%90%E6%B5%8B%E8%AF%84_1_%E5%92%8C%E6%95%8F%E5%AE%9D%E6%89%93%E6%80%AA%E5%8D%87%E7%BA%A7_%E6%9D%A5%E8%87%AA%E5%B0%8F%E7%BA%A2%E4%B9%A6%E7%BD%91%E9%A1%B5%E7%89%88.jpg){: width="300" height="250" }
 
-![2](https://blog-1252538339.cos.ap-chengdu.myqcloud.com/minbao/p_%E9%AB%98%E9%93%81%E7%B1%B3%E7%B2%89/%E5%AE%9D%E5%AE%9D%E8%BE%85%E9%A3%9F_%E6%95%8F%E5%AE%9D_%E7%B1%B3%E7%B2%89%E6%80%8E%E4%B9%88%E9%80%89%EF%BC%8C%E6%8E%A8%E8%8D%90%E6%B5%8B%E8%AF%84_2_%E5%92%8C%E6%95%8F%E5%AE%9D%E6%89%93%E6%80%AA%E5%8D%87%E7%BA%A7_%E6%9D%A5%E8%87%AA%E5%B0%8F%E7%BA%A2%E4%B9%A6%E7%BD%91%E9%A1%B5%E7%89%88.jpg){: width="300" height="250" }
+![为什么第一口不吃高铁米粉](https://blog-1252538339.cos.ap-chengdu.myqcloud.com/minbao/p_%E9%AB%98%E9%93%81%E7%B1%B3%E7%B2%89/%E5%AE%9D%E5%AE%9D%E8%BE%85%E9%A3%9F_%E6%95%8F%E5%AE%9D_%E7%B1%B3%E7%B2%89%E6%80%8E%E4%B9%88%E9%80%89%EF%BC%8C%E6%8E%A8%E8%8D%90%E6%B5%8B%E8%AF%84_2_%E5%92%8C%E6%95%8F%E5%AE%9D%E6%89%93%E6%80%AA%E5%8D%87%E7%BA%A7_%E6%9D%A5%E8%87%AA%E5%B0%8F%E7%BA%A2%E4%B9%A6%E7%BD%91%E9%A1%B5%E7%89%88.jpg){: width="300" height="250" }
 
 
 ### 第1️⃣步：看宝宝是否是敏感体质？

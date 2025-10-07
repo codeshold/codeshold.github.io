@@ -2,8 +2,9 @@
 title: 🛒 Allergy-Friendly Shopping Platform
 layout: post
 author: Fighting Allergies with Baby
+description: "Allergy-Friendly Shopping Platform"
 category: Allergy
-tags: [Allergy, Shopping]
+tags: [Shopping]
 ---
 
 ## 0. Mini Program

@@ -3,7 +3,8 @@ title: Baby Food - Why Not Start with Iron-Fortified Rice Cereal
 layout: post
 author: Fighting Allergies with Baby
 category: Allergy
-tags: [Allergy, Burnt Rice Paste, First Food]
+description: "Baby Food - Why Not Start with Iron-Fortified Rice Cereal"
+tags: ["Burnt Rice Paste", "First Food"]
 ---
 
 ## Why Not【Iron-Fortified Rice Cereal】❌

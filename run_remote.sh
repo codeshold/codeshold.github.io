@@ -1,2 +1,2 @@
 export JEKYLL_ENV=production
-bundle exec jekyll server --port 4001
+nohup bundle exec jekyll server --gemfile ./local/Gemefile --config ./local/_config.yml --port 4001

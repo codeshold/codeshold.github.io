@@ -48,8 +48,8 @@ ga:
 
 # 网站备案信息
 beian:
-  icp: "darlings.life"
-  gongan: "darligns.life"
+  icp: "沪ICP备2024045861号"
+  gongan: "粤公网安备xxxxxxxx号"
   contact_email: "wuzhimang@gmail.com"
 
 # disqus 设置
@@ -105,10 +105,10 @@ include: []
 
 exclude: ["README.md", "vendor", ".bundle", "node_modules", "Gemfile.lock", "Gemfile"]
 
-plugins:
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-github-metadata
-  - jekyll-mentions
-  - jekyll-redirect-from
-#  - jemojirepository: username/repo-name
+plugins: []
+#  - jekyll-sitemap
+#- jekyll-paginate
+##- jekyll-github-metadata
+#- jekyll-mentions
+#- jekyll-redirect-from
+##- jemojirepository: username/repo-name

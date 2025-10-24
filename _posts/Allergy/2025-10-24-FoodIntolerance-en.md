@@ -82,6 +82,7 @@ tags: [Intolerance]
 	- Such as: after baby catches cold😷, after vaccination💉, other special circumstances
 
 ## 🤔 How to Choose Testing Products❓
+
 |--|✅ Correct Approach|Description|
 |:--:|:--:|:--:|
 |1️⃣|`**Home Testing**`|Convenient, cost-effective<br>Key is the test reagents|

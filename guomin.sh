@@ -10,6 +10,8 @@ PORT="4001"
 PID_FILE="./guomin.pid"
 LOG_FILE="./guomin.log"
 HOST="0.0.0.0"  # 服务监听地址
+UPDATE_LOG_FILE="./guomin_update.log"  # Git update log file
+SCRIPT_PATH="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/$(basename "${BASH_SOURCE[0]}")"  # 脚本绝对路径
 
 # 颜色定义
 RED='\033[0;31m'
@@ -266,6 +268,205 @@ clean_logs() {
     fi
 }
 
+# Update code from git
+update_code() {
+    log_info "Updating code from git repository..."
+    
+    # Check if git is installed
+    if ! command -v git >/dev/null 2>&1; then
+        log_error "Git is not installed"
+        return 1
+    fi
+    
+    # Check if current directory is a git repository
+    if [ ! -d ".git" ]; then
+        log_error "Current directory is not a git repository"
+        return 1
+    fi
+    
+    # Save current branch
+    local current_branch=$(git branch --show-current 2>/dev/null)
+    if [ -z "$current_branch" ]; then
+        log_error "Failed to get current branch"
+        return 1
+    fi
+    
+    log_info "Current branch: $current_branch"
+    
+    # Check for uncommitted changes
+    if ! git diff-index --quiet HEAD -- 2>/dev/null; then
+        log_warning "You have uncommitted changes"
+        read -p "Do you want to stash changes and continue? [y/N] " -n 1 -r
+        echo
+        if [[ $REPLY =~ ^[Yy]$ ]]; then
+            git stash save "Auto-stash before update $(date '+%Y-%m-%d %H:%M:%S')" >> "$UPDATE_LOG_FILE" 2>&1
+            log_info "Changes stashed"
+        else
+            log_info "Update cancelled"
+            return 1
+        fi
+    fi
+    
+    # Fetch latest changes
+    log_info "Fetching latest changes..."
+    if ! git fetch origin >> "$UPDATE_LOG_FILE" 2>&1; then
+        log_error "Failed to fetch from remote"
+        return 1
+    fi
+    
+    # Check if there are updates
+    local local_commit=$(git rev-parse HEAD)
+    local remote_commit=$(git rev-parse origin/$current_branch 2>/dev/null)
+    
+    if [ "$local_commit" = "$remote_commit" ]; then
+        log_success "Code is already up to date"
+        return 0
+    fi
+    
+    # Pull latest changes
+    log_info "Pulling latest changes..."
+    if git pull origin "$current_branch" >> "$UPDATE_LOG_FILE" 2>&1; then
+        log_success "Code updated successfully"
+        log_info "Update log: $UPDATE_LOG_FILE"
+        
+        # Ask if user wants to restart service
+        if check_pid_file > /dev/null; then
+            read -p "Service is running. Do you want to restart it? [y/N] " -n 1 -r
+            echo
+            if [[ $REPLY =~ ^[Yy]$ ]]; then
+                restart_service
+            fi
+        fi
+        return 0
+    else
+        log_error "Failed to pull changes"
+        log_error "Please check update log: $UPDATE_LOG_FILE"
+        return 1
+    fi
+}
+
+# Setup auto-update with cron
+setup_auto_update() {
+    local interval=${1:-60}  # Default: every 60 minutes
+    
+    log_info "Setting up auto-update (every $interval minutes)..."
+    
+    # Validate interval
+    if ! [[ "$interval" =~ ^[0-9]+$ ]] || [ "$interval" -lt 1 ]; then
+        log_error "Invalid interval. Please specify a positive number (minutes)"
+        return 1
+    fi
+    
+    # Check if cron is available
+    if ! command -v crontab >/dev/null 2>&1; then
+        log_error "Crontab is not available on this system"
+        return 1
+    fi
+    
+    # Create cron job entry
+    local cron_comment="# Guomin website auto-update"
+    local cron_job="*/$interval * * * * cd $(pwd) && $SCRIPT_PATH update-silent >> $UPDATE_LOG_FILE 2>&1"
+    
+    # Check if cron job already exists
+    if crontab -l 2>/dev/null | grep -q "$SCRIPT_PATH update-silent"; then
+        log_warning "Auto-update cron job already exists"
+        read -p "Do you want to update it? [y/N] " -n 1 -r
+        echo
+        if [[ ! $REPLY =~ ^[Yy]$ ]]; then
+            log_info "Setup cancelled"
+            return 1
+        fi
+        # Remove old cron job
+        crontab -l 2>/dev/null | grep -v "$SCRIPT_PATH update-silent" | crontab -
+    fi
+    
+    # Add new cron job
+    (crontab -l 2>/dev/null; echo "$cron_comment"; echo "$cron_job") | crontab -
+    
+    if [ $? -eq 0 ]; then
+        log_success "Auto-update enabled (every $interval minutes)"
+        log_info "Update log will be saved to: $UPDATE_LOG_FILE"
+        log_info "To view cron jobs: crontab -l"
+        log_info "To stop auto-update: $0 stop-auto-update"
+        return 0
+    else
+        log_error "Failed to setup auto-update"
+        return 1
+    fi
+}
+
+# Stop auto-update
+stop_auto_update() {
+    log_info "Stopping auto-update..."
+    
+    if ! command -v crontab >/dev/null 2>&1; then
+        log_error "Crontab is not available on this system"
+        return 1
+    fi
+    
+    # Check if cron job exists
+    if ! crontab -l 2>/dev/null | grep -q "$SCRIPT_PATH update-silent"; then
+        log_warning "Auto-update is not enabled"
+        return 1
+    fi
+    
+    # Remove cron job
+    crontab -l 2>/dev/null | grep -v "Guomin website auto-update" | grep -v "$SCRIPT_PATH update-silent" | crontab -
+    
+    if [ $? -eq 0 ]; then
+        log_success "Auto-update stopped"
+        return 0
+    else
+        log_error "Failed to stop auto-update"
+        return 1
+    fi
+}
+
+# Silent update (for cron job)
+update_code_silent() {
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] Starting auto-update..." >> "$UPDATE_LOG_FILE"
+    
+    if ! command -v git >/dev/null 2>&1; then
+        echo "[$(date '+%Y-%m-%d %H:%M:%S')] ERROR: Git is not installed" >> "$UPDATE_LOG_FILE"
+        return 1
+    fi
+    
+    if [ ! -d ".git" ]; then
+        echo "[$(date '+%Y-%m-%d %H:%M:%S')] ERROR: Not a git repository" >> "$UPDATE_LOG_FILE"
+        return 1
+    fi
+    
+    local current_branch=$(git branch --show-current 2>/dev/null)
+    
+    # Fetch and check for updates
+    git fetch origin >> "$UPDATE_LOG_FILE" 2>&1
+    
+    local local_commit=$(git rev-parse HEAD)
+    local remote_commit=$(git rev-parse origin/$current_branch 2>/dev/null)
+    
+    if [ "$local_commit" = "$remote_commit" ]; then
+        echo "[$(date '+%Y-%m-%d %H:%M:%S')] Code is up to date" >> "$UPDATE_LOG_FILE"
+        return 0
+    fi
+    
+    # Pull changes
+    if git pull origin "$current_branch" >> "$UPDATE_LOG_FILE" 2>&1; then
+        echo "[$(date '+%Y-%m-%d %H:%M:%S')] Code updated successfully" >> "$UPDATE_LOG_FILE"
+        
+        # Auto restart service if running
+        if check_pid_file > /dev/null; then
+            echo "[$(date '+%Y-%m-%d %H:%M:%S')] Restarting service..." >> "$UPDATE_LOG_FILE"
+            stop_service >> "$UPDATE_LOG_FILE" 2>&1
+            sleep 2
+            start_service >> "$UPDATE_LOG_FILE" 2>&1
+        fi
+        return 0
+    else
+        echo "[$(date '+%Y-%m-%d %H:%M:%S')] ERROR: Failed to pull changes" >> "$UPDATE_LOG_FILE"
+        return 1
+    fi
+}
+
 # Show help information
 show_help() {
     echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
@@ -276,14 +477,17 @@ show_help() {
     echo "  $0 {start|stop|restart|status|logs|follow|clean|help}"
     echo ""
     echo -e "${BLUE}Commands:${NC}"
-    echo -e "  ${GREEN}start${NC}     Start Guomin website service"
-    echo -e "  ${GREEN}stop${NC}      Stop Guomin website service"
-    echo -e "  ${GREEN}restart${NC}   Restart Guomin website service"
-    echo -e "  ${GREEN}status${NC}    Check service status"
-    echo -e "  ${GREEN}logs${NC}      View recent logs (default 50 lines, specify: logs 100)"
-    echo -e "  ${GREEN}follow${NC}    Follow logs in real-time"
-    echo -e "  ${GREEN}clean${NC}     Clean log file"
-    echo -e "  ${GREEN}help${NC}      Show this help information"
+    echo -e "  ${GREEN}start${NC}            Start Guomin website service"
+    echo -e "  ${GREEN}stop${NC}             Stop Guomin website service"
+    echo -e "  ${GREEN}restart${NC}          Restart Guomin website service"
+    echo -e "  ${GREEN}status${NC}           Check service status"
+    echo -e "  ${GREEN}logs${NC}             View recent logs (default 50 lines, specify: logs 100)"
+    echo -e "  ${GREEN}follow${NC}           Follow logs in real-time"
+    echo -e "  ${GREEN}clean${NC}            Clean log file"
+    echo -e "  ${GREEN}update${NC}           Update code from git repository"
+    echo -e "  ${GREEN}auto-update${NC}      Enable auto-update (specify interval: auto-update 30)"
+    echo -e "  ${GREEN}stop-auto-update${NC} Stop auto-update"
+    echo -e "  ${GREEN}help${NC}             Show this help information"
     echo ""
     echo -e "${BLUE}Configuration:${NC}"
     echo -e "  Environment: ${YELLOW}$JEKYLL_ENV${NC}"
@@ -294,11 +498,14 @@ show_help() {
     echo -e "  Log File:    ${YELLOW}$LOG_FILE${NC}"
     echo ""
     echo -e "${BLUE}Examples:${NC}"
-    echo "  $0 start          # Start service"
-    echo "  $0 status         # Check status"
-    echo "  $0 logs 100       # View last 100 lines of logs"
-    echo "  $0 follow         # Follow logs in real-time"
-    echo "  $0 restart        # Restart service"
+    echo "  $0 start              # Start service"
+    echo "  $0 status             # Check status"
+    echo "  $0 logs 100           # View last 100 lines of logs"
+    echo "  $0 follow             # Follow logs in real-time"
+    echo "  $0 restart            # Restart service"
+    echo "  $0 update             # Update code from git"
+    echo "  $0 auto-update 30     # Enable auto-update every 30 minutes"
+    echo "  $0 stop-auto-update   # Stop auto-update"
     echo ""
     echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 }
@@ -326,6 +533,18 @@ main() {
             ;;
         clean)
             clean_logs
+            ;;
+        update)
+            update_code
+            ;;
+        update-silent)
+            update_code_silent
+            ;;
+        auto-update)
+            setup_auto_update "${2:-60}"
+            ;;
+        stop-auto-update)
+            stop_auto_update
             ;;
         help|--help|-h)
             show_help
